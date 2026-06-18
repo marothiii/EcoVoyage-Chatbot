@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Dubai Green Oasis",
+      "price_per_night": 220,
+      "eco_certified": true,
+      "certification": "Green Globe",
+      "carbon_score": 90,
+      "community_score": 84,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Eco Palm Resort",
+      "price_per_night": 250,
+      "eco_certified": true,
+      "certification": "EarthCheck",
+      "carbon_score": 86,
+      "community_score": 80,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Luxury Desert Hotel",
+      "price_per_night": 200,
+      "eco_certified": false,
+      "certification": "None",
+      "carbon_score": 60,
+      "community_score": 75,
+      "greenwashing_risk": "Medium"
+    }
+  ]

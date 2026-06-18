@@ -1,0 +1,64 @@
+version: "3.1"
+
+rules:
+
+- rule: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Handle fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+  - action: utter_ask_destination
+
+- rule: Human advisor handover
+  steps:
+  - intent: request_human_advisor
+  - action: utter_human_handover
+
+
+- rule: Ask budget after dates
+  steps:
+  - intent: provide_dates
+  - action: utter_ask_budget
+
+- rule: Ask travel style after budget
+  steps:
+  - intent: provide_budget
+  - action: utter_ask_travel_style
+
+- rule: Ask sustainability after travel style
+  steps:
+  - intent: provide_travel_style
+  - action: utter_ask_sustainability
+
+- rule: Generate recommendation after sustainability
+  steps:
+  - intent: provide_sustainability
+  - action: action_generate_eco_recommendation
+
+
+
+- rule: Respond to thank you
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+
+- rule: Respond to mood check
+  steps:
+  - intent: mood_check
+  - action: utter_mood_check
+
+
+- rule: Respond to positive feedback
+  steps:
+  - intent: positive_feedback
+  - action: utter_positive_feedback
+
+
+- rule: Respond to deny
+  steps:
+  - intent: deny
+  - action: utter_deny

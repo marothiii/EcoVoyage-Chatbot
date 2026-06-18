@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Green London Suites",
+      "price_per_night": 180,
+      "eco_certified": true,
+      "certification": "Green Key",
+      "carbon_score": 92,
+      "community_score": 88,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Thames Eco Hotel",
+      "price_per_night": 160,
+      "eco_certified": true,
+      "certification": "EarthCheck",
+      "carbon_score": 85,
+      "community_score": 82,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Central London Stay",
+      "price_per_night": 140,
+      "eco_certified": false,
+      "certification": "None",
+      "carbon_score": 65,
+      "community_score": 70,
+      "greenwashing_risk": "Medium"
+    }
+  ]

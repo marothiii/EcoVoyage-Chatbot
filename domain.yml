@@ -1,0 +1,161 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - provide_destination
+  - provide_dates
+  - provide_budget
+  - provide_travel_style
+  - provide_sustainability
+  - request_human_advisor
+  - affirm
+  - thank_you
+  - mood_check
+  - positive_feedback
+  - deny
+
+entities:
+  - destination
+  - dates
+  - budget
+  - travel_style
+  - sustainability
+
+slots:
+  destination:
+    type: text
+    mappings:
+      - type: from_text
+        intent: provide_destination
+
+  dates:
+    type: text
+    mappings:
+      - type: from_text
+        intent: provide_dates
+
+  budget:
+    type: text
+    mappings:
+      - type: from_text
+        intent: provide_budget
+
+  travel_style:
+    type: text
+    mappings:
+      - type: from_text
+        intent: provide_travel_style
+
+  sustainability:
+    type: text
+    mappings:
+      - type: from_text
+        intent: provide_sustainability
+
+actions:
+  - action_generate_eco_recommendation
+
+responses:
+
+  utter_greet:
+    - text: "Welcome to EcoVoyage AI 🌱 I can help you plan a low-carbon and ethical trip."
+  
+  utter_ask_destination:
+    - text: |
+        Which destination are you considering?
+
+        🌍 Available destinations:
+        • Berlin
+        • Paris
+        • Rome
+        • London
+        • Dubai
+        • Barcelona
+        • Amsterdam
+
+  utter_ask_dates:
+    - text: |
+        What are your travel dates?
+
+        Examples:
+        • July 2026
+        • Summer 2026
+        • December 2026
+
+  utter_ask_budget:
+    - text: |
+        What is your approximate budget?
+
+        Examples:
+        • 500 euros
+        • 1000 euros
+        • 2000 euros
+
+  utter_ask_travel_style:
+    - text: |
+        What type of traveller are you?
+
+        Options:
+        • Backpacking
+        • Luxury
+        • Family
+        • Business
+        • Adventure
+
+  utter_ask_sustainability:
+    - text: |
+        Which preference would you like?
+
+        Options:
+        • Strict Eco
+        • Balanced
+        • Budget First
+        • Comfort First
+
+  utter_goodbye:
+    - text: "Thank you for using EcoVoyage AI 🌍"
+
+
+
+  utter_thank_you:
+    - text: "You're welcome. Let me know if you'd like another recommendation or a different sustainability profile."  
+
+  utter_mood_check:
+    - text: "I'm doing well, thank you. I'm ready to help you plan a sustainable trip."
+  
+
+  utter_positive_feedback:
+    - text: "I'm glad you found the recommendation useful."
+  
+  
+  utter_deny:
+    - text: "Thank you for using EcoVoyage AI 🌍. Have a great trip."
+
+  utter_fallback:
+    - text: |
+        Sorry, I didn't understand that.
+
+        Please provide:
+        • Destination
+        • Travel dates
+        • Budget
+        • Traveller type
+        • Sustainability preference
+
+  utter_human_handover:
+    - text: |
+        I can escalate this to a human travel advisor.
+
+        The following information has been collected:
+        • Destination
+        • Travel dates
+        • Budget
+        • Traveller type
+        • Sustainability preference
+        • Recommendation score
+        • Risk assessment
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

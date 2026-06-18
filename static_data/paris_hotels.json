@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Paris Green Retreat",
+      "destination": "Paris",
+      "price_per_night": 140,
+      "eco_certified": true,
+      "certification": "Green Globe",
+      "carbon_score": 91,
+      "community_score": 86,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Eco Seine Hotel",
+      "destination": "Paris",
+      "price_per_night": 110,
+      "eco_certified": true,
+      "certification": "EU Ecolabel",
+      "carbon_score": 85,
+      "community_score": 80,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Paris City Stay",
+      "destination": "Paris",
+      "price_per_night": 90,
+      "eco_certified": false,
+      "certification": "Self-reported",
+      "carbon_score": 60,
+      "community_score": 58,
+      "greenwashing_risk": "Medium"
+    }
+  ]

@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Green Berlin Hotel",
+      "destination": "Berlin",
+      "price_per_night": 120,
+      "eco_certified": true,
+      "certification": "Green Key",
+      "carbon_score": 92,
+      "community_score": 88,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Urban Eco Lodge Berlin",
+      "destination": "Berlin",
+      "price_per_night": 95,
+      "eco_certified": true,
+      "certification": "EU Ecolabel",
+      "carbon_score": 86,
+      "community_score": 82,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "City Comfort Stay Berlin",
+      "destination": "Berlin",
+      "price_per_night": 80,
+      "eco_certified": false,
+      "certification": "Self-declared eco policy",
+      "carbon_score": 65,
+      "community_score": 60,
+      "greenwashing_risk": "Medium"
+    }
+  ]

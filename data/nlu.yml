@@ -1,0 +1,180 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - can you help me plan a trip
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - stop
+
+- intent: provide_destination
+  examples: |
+    - Berlin
+    - Paris
+    - paris
+    - Rome
+    - Amsterdam
+    - Barcelona
+    - I want to travel to Berlin
+    - My destination is Rome
+    - I am visiting Paris
+    - Dubai
+    - dubai
+    - I want Dubai
+    - I want to visit Dubai
+    - London
+    - london
+    - Barcelona
+    - barcelona
+    - Amsterdam
+    - amsterdam
+    - my destination is Dubai
+    - I am travelling to Dubai
+    - travelling to Dubai
+    - visit Dubai
+    - going to Dubai
+    - my destination is London
+    - travelling to Amsterdam
+    - visit Barcelona
+
+- intent: provide_dates
+  examples: |
+    - 10 July to 15 July
+    - next weekend
+    - August 1st to August 5th
+    - from 12 June to 18 June
+    - one week in September
+    - July 2026
+    - july 2026
+    - in July 2026
+    - I want to travel in July 2026
+    - my travel dates are July 2026
+    - July
+    - in July
+    - summer 2026
+    - next summer
+    - next week
+    - next year
+
+- intent: provide_budget
+  examples: |
+    - 1000 euros
+    - my budget is 1500
+    - around 800 euros
+    - maximum 2000 euros
+    - 500 pounds
+
+- intent: provide_travel_style
+  examples: |
+    - backpacking
+    - luxury
+    - family
+    - business
+    - adventure
+    - I prefer luxury travel
+    - I am travelling for business
+
+- intent: provide_sustainability
+  examples: |
+    - strict eco
+    - balanced
+    - budget first
+    - comfort first
+    - low carbon is important
+    - I want the greenest option
+
+- intent: nlu_fallback
+  examples: |
+    - moon apple travel
+    - asdfghjkl
+    - random words
+    - banana travel moon
+    - I do not understand
+    - whatever
+    - blah blah blah
+    - qwertyuiop
+    - take me to the moon
+    - I want something weird
+    - nonsense input
+    - help me with something else
+
+- intent: request_human_advisor
+  examples: |
+    - I want a human advisor
+    - Can I speak to a human?
+    - I need a travel advisor
+    - Please connect me to someone
+    - Can a person help me?
+    - I want human support
+    - I need help from a real person
+    - Can you escalate this?
+
+- intent: affirm
+  examples: |
+    - yes
+    - yeah
+    - yep
+    - sure
+    - okay
+    - ok
+    - definitely
+    - please do
+
+- intent: thank_you
+  examples: |
+    - thank you
+    - thanks
+    - thank you very much
+    - appreciate it
+    - thanks a lot
+    - thanks so much 
+    - okay thanks
+    - okay thank you
+
+- intent: mood_check
+  examples: |
+    - how are you
+    - how are you doing
+    - are you okay
+    - how is it going
+    - how are things
+    - what's up
+    - yourself
+    - and you
+    - how about you
+    - im good thanks yourself
+    - and yourself
+
+- intent: positive_feedback
+  examples: |
+    - nice
+    - great
+    - awesome
+    - excellent
+    - sounds good
+    - perfect
+    - cool
+
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - no thanks
+    - not really
+    - that's all
+    - thats all
+    - i'm done
+    - im done
+    - finished

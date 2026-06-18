@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Barcelona Eco Marina",
+      "destination": "Barcelona",
+      "price_per_night": 125,
+      "eco_certified": true,
+      "certification": "Green Key",
+      "carbon_score": 91,
+      "community_score": 90,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Catalonia Green Stay",
+      "destination": "Barcelona",
+      "price_per_night": 98,
+      "eco_certified": true,
+      "certification": "EU Ecolabel",
+      "carbon_score": 84,
+      "community_score": 82,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Barcelona Urban Hotel",
+      "destination": "Barcelona",
+      "price_per_night": 82,
+      "eco_certified": false,
+      "certification": "Self-reported",
+      "carbon_score": 58,
+      "community_score": 60,
+      "greenwashing_risk": "Medium"
+    }
+  ]

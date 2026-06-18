@@ -1,0 +1,6 @@
+cat >> .gitignore << 'EOF'
+.rasa/cache/
+.rasa/*.db
+models/
+results/
+EOF

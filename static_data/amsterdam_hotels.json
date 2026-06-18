@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Canal Eco Suites",
+      "destination": "Amsterdam",
+      "price_per_night": 135,
+      "eco_certified": true,
+      "certification": "Green Key",
+      "carbon_score": 93,
+      "community_score": 89,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Amsterdam Green House",
+      "destination": "Amsterdam",
+      "price_per_night": 105,
+      "eco_certified": true,
+      "certification": "EU Ecolabel",
+      "carbon_score": 84,
+      "community_score": 81,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "City Canal Hotel",
+      "destination": "Amsterdam",
+      "price_per_night": 85,
+      "eco_certified": false,
+      "certification": "Self-reported",
+      "carbon_score": 59,
+      "community_score": 61,
+      "greenwashing_risk": "Medium"
+    }
+  ]

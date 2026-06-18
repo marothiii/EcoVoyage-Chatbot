@@ -1,0 +1,19 @@
+version: "3.1"
+
+stories:
+
+- story: eco travel planning flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ask_destination
+  - intent: provide_destination
+  - action: utter_ask_dates
+  - intent: provide_dates
+  - action: utter_ask_budget
+  - intent: provide_budget
+  - action: utter_ask_travel_style
+  - intent: provide_travel_style
+  - action: utter_ask_sustainability
+  - intent: provide_sustainability
+  - action: action_generate_eco_recommendation

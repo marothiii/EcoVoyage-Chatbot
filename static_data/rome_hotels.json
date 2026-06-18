@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Roma Verde Hotel",
+      "destination": "Rome",
+      "price_per_night": 130,
+      "eco_certified": true,
+      "certification": "Green Globe",
+      "carbon_score": 90,
+      "community_score": 87,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Eco Colosseum Lodge",
+      "destination": "Rome",
+      "price_per_night": 100,
+      "eco_certified": true,
+      "certification": "EU Ecolabel",
+      "carbon_score": 83,
+      "community_score": 80,
+      "greenwashing_risk": "Low"
+    },
+    {
+      "name": "Roman City Inn",
+      "destination": "Rome",
+      "price_per_night": 75,
+      "eco_certified": false,
+      "certification": "Self-reported",
+      "carbon_score": 57,
+      "community_score": 55,
+      "greenwashing_risk": "Medium"
+    }
+  ]
